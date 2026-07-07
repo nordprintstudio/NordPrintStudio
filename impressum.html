@@ -84,6 +84,7 @@
 <div class="wrap">
   <a class="back" href="index.html">&larr; Zurück</a>
   <h1>Impressum</h1>
+  <p style="margin-bottom:1.5rem;"><a href="datenschutz.html">→ Datenschutzerklärung</a></p>
 
   <h2>Angaben gemäß § 5 DDG</h2>
   <p>NordPrint Studio - Marlon Müller</p>
@@ -102,15 +103,15 @@
   <p>Marlon Müller (Anschrift wie oben)</p>
 
   <h2>Kontaktformular</h2>
-  <form action="https://formsubmit.co/info@nordprintstudio.de" method="POST">
-    <input type="hidden" name="_subject" value="Neue Anfrage über nordprintstudio.de">
-    <input type="hidden" name="_template" value="table">
-    <input type="hidden" name="_next" value="https://nordprintstudio.de/impressum.html?sent=1">
+  <form action="https://submit-form.com/49AvtRgd4" method="POST">
+    <input type="hidden" name="_redirect" value="https://nordprintstudio.de/impressum.html?sent=1">
+    <input type="hidden" name="_append" value="false">
     <input type="text" name="Name" placeholder="Dein Name" required>
     <input type="email" name="E-Mail" placeholder="Deine E-Mail-Adresse" required>
     <textarea name="Nachricht" placeholder="Deine Nachricht" required></textarea>
-    <input type="text" name="_honey" style="display:none">
+    <input type="text" name="_honeypot" style="display:none" tabindex="-1" autocomplete="off">
     <button type="submit">Absenden</button>
+    <p style="font-size:0.8rem;">Mit dem Absenden werden deine Angaben zur Bearbeitung deiner Anfrage verarbeitet (über Formspark, EU-Server). Details in der <a href="datenschutz.html">Datenschutzerklärung</a>.</p>
   </form>
 </div>
 </body>
